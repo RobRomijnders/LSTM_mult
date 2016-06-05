@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>LSTM addition by RobRomijnders</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>LSTM addition</h1>
+        <p>LSTM used to integer addition</p>
+
+        <p class="view"><a href="https://github.com/RobRomijnders/LSTM_mult">View the Project on GitHub <small>RobRomijnders/LSTM_mult</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/RobRomijnders/LSTM_mult/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/RobRomijnders/LSTM_mult/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/RobRomijnders/LSTM_mult">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="lstm-for-integer-addition" class="anchor" href="#lstm-for-integer-addition" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LSTM for integer addition</h3>
+
+<p>As a first encounter with LSTM's, a little example of how they can do integer addition</p>
+
+<h3>
+<a id="model" class="anchor" href="#model" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Model</h3>
+
+<p>The LSTM takes in sequences of integers. After the final integer, we map the final output state into a real number. With L2-loss we train the network.</p>
+
+<p>Some examples after a short training</p>
+
+<pre><code>predicted 21.01 true 19
+predicted 16.67 true 15
+predicted 16.39 true 14
+predicted 23.27 true 22
+predicted 22.43 true 21
+predicted 25.26 true 25
+predicted 12.76 true 12
+predicted 21.73 true 20
+predicted 21.31 true 19
+predicted 26.83 true 26
+predicted 23.01 true 21
+predicted 26.43 true 25
+predicted 22.63 true 21
+predicted 22.71 true 21
+predicted 24.80 true 24
+predicted 20.28 true 19
+predicted 22.66 true 21
+predicted 24.52 true 23
+predicted 22.55 true 21
+predicted 23.75 true 23
+predicted 15.80 true 14
+predicted 21.49 true 20
+predicted 20.79 true 18
+predicted 26.01 true 25
+predicted 20.28 true 18
+predicted 16.77 true 15
+predicted 18.94 true 17
+predicted 20.03 true 18
+predicted 23.43 true 23
+predicted 21.33 true 20
+predicted 26.84 true 26
+predicted 25.12 true 24
+predicted 25.57 true 24
+predicted 19.52 true 18
+predicted 20.08 true 18
+predicted 23.61 true 22
+predicted 14.46 true 13
+predicted 22.79 true 22
+predicted 28.10 true 28
+predicted 15.54 true 14
+predicted 25.04 true 24
+predicted 17.73 true 16
+predicted 25.10 true 24
+predicted 20.14 true 19
+predicted 21.97 true 21
+predicted 23.87 true 23
+predicted 24.84 true 23
+predicted 26.35 true 26
+predicted 10.80 true 9
+predicted 21.53 true 20 ```
+
+As always, I am curious to any comments and questions. Reach me at romijndersrob@gmail.com
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/RobRomijnders">RobRomijnders</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
